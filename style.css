@@ -1,0 +1,76 @@
+
+:root {
+  --cool-dark: #061130;
+  --cool-blue: #1C4BC4;
+  --cool-light: #F4F6F8;
+  --cool-yellow: #FAFD61;
+  --cool-gray: #eef3f3;
+}
+
+body{
+  background-color: var(--cool-dark);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+header img{
+  display: flex
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+  
+}
+
+nav a{
+  color: var(--cool-light);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+}
+
+button{
+  background-color: var(--cool-blue);
+  color: var(--cool-light);
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+main{
+  display: flex;
+  color: var(--cool-light);
+  padding: 5em;
+}
+
+article{
+  padding: 4em;
+}
+
+section{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--cool-light);
+  color: var(--cool-blue);
+  padding: 3em;
+}
+
+footer{
+  display: flex;
+  background-color: var(--cool-gray);
+  justify-content: center;
+  text-align: center;
+  color: var(--cool-dark);
+}
+
+.cool-yellow{
+  color: var(--cool-yellow);
+}
